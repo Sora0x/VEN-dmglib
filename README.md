@@ -100,11 +100,6 @@ Then `#include "ven_dmglib/compute.hpp"` and use.
 ## Documentation
 
 - [Overview](docs/overview.md) — architecture, the two paths, design rationale
-- [mitigation.md](docs/mitigation.md) — armor/MR formulas, penetration model
-- [runes.md](docs/runes.md) — the 4 covered runes, conditions, mutual exclusivity
-- [items.md](docs/items.md) — Shadowflame amp, Collector execute window
-- [objectives.md](docs/objectives.md) — Baron / Dragon / Elder rules and quirks
-- [compute.md](docs/compute.md) — composite pipeline + `will_kill`
 - [sdk-dependency.md](docs/sdk-dependency.md) — what VEN SDK pieces are used and why
 - [patch-tracking.md](docs/patch-tracking.md) — which Riot patch each constant matches
 
