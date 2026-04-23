@@ -27,11 +27,10 @@ Break any of these and the PR gets a rewrite request, not a merge.
 
 ### 1. No comments in `include/`
 
-If the code needs a comment, rewrite it. Four one-line exceptions:
+If the code needs a comment, rewrite it. 3 one-line exceptions:
 
 - `// TODO:` on data not yet implemented that you plan, or wants another contributor to implement
 - License header at file top
-- Compiler attribute when needed (`[[fallthrough]]`, etc.)
 - Language escape hatch (e.g., a getter forced non-`const` by an SDK quirk) — justified in the PR
 
 Tutorial files under `examples/` can have explanatory comments — those exist to teach.
